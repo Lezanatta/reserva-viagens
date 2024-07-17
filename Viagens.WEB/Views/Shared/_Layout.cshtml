@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Viagens.WEB</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Viagens.WEB.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="content-principal">
+        <header>
+            <ul class="d-flex justify-content-between align-items-center">
+                <li class="nav-item">
+                    <a id="item-menu" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a id="item-menu" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Sobre</a>
+                </li>
+            </ul>
+        </header>
+        <aside class="sidenav">
+            <div class="items-side">
+                <ul class="p-0">
+                    <li class="nav-item mt-3">
+                        <a id="item-menu" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Personalizar perfil</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a id="item-menu" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Realizar Checkin">Realizar Checkin</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a id="item-menu" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Realizar Pagamento</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a id="item-menu" class="nav-link text-dark" asp-area="" asp-controller="Reserva" asp-action="Index">Consultar Reservas</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a id="item-menu" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Realizar nova reserva</a>
+                    </li>
+                    <li class="nav-item mt-3">
+                        <a id="item-menu" class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Consultar documentos</a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <div class="content">
+            @RenderBody()
+        </div>
+        <footer class="main-footer d-flex justify-content-center align-items-center">
+            &copy; 2024 - Viagens.WEB -
+        </footer>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

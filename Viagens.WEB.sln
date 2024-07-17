@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viagens.WEB", "Viagens.WEB\Viagens.WEB.csproj", "{968BC47C-889B-4434-B3B2-C226988C575E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Viagens.API", "Viagens.API\Viagens.API.csproj", "{9574318B-0A8A-4F9C-B143-55F074A68FE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CheckinFn", "Lambdas\Checkin\CheckinFn.csproj", "{5C1DD3F9-BA2D-45F1-87FD-5413CC0474DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PagamentoFn", "Lambdas\Pagamento\PagamentoFn.csproj", "{97B8A45D-0A00-4C2E-A800-89B7183A577D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lambdas", "Lambdas", "{CDDAC4F4-7EE6-4C4F-B1D8-6D8D8925B73C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compartilhado", "Compartilhado\Compartilhado.csproj", "{F93737D0-078F-4366-ACDF-AE8918AEE778}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{968BC47C-889B-4434-B3B2-C226988C575E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968BC47C-889B-4434-B3B2-C226988C575E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968BC47C-889B-4434-B3B2-C226988C575E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968BC47C-889B-4434-B3B2-C226988C575E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9574318B-0A8A-4F9C-B143-55F074A68FE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9574318B-0A8A-4F9C-B143-55F074A68FE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9574318B-0A8A-4F9C-B143-55F074A68FE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9574318B-0A8A-4F9C-B143-55F074A68FE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C1DD3F9-BA2D-45F1-87FD-5413CC0474DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C1DD3F9-BA2D-45F1-87FD-5413CC0474DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C1DD3F9-BA2D-45F1-87FD-5413CC0474DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C1DD3F9-BA2D-45F1-87FD-5413CC0474DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B8A45D-0A00-4C2E-A800-89B7183A577D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B8A45D-0A00-4C2E-A800-89B7183A577D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B8A45D-0A00-4C2E-A800-89B7183A577D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B8A45D-0A00-4C2E-A800-89B7183A577D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93737D0-078F-4366-ACDF-AE8918AEE778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93737D0-078F-4366-ACDF-AE8918AEE778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93737D0-078F-4366-ACDF-AE8918AEE778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93737D0-078F-4366-ACDF-AE8918AEE778}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C1DD3F9-BA2D-45F1-87FD-5413CC0474DB} = {CDDAC4F4-7EE6-4C4F-B1D8-6D8D8925B73C}
+		{97B8A45D-0A00-4C2E-A800-89B7183A577D} = {CDDAC4F4-7EE6-4C4F-B1D8-6D8D8925B73C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2ABCB3FE-925B-4920-87AE-FE494E1D46D6}
+	EndGlobalSection
+EndGlobal

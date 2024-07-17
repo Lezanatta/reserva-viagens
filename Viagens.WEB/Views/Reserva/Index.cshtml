@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Viagens.WEB.Models.Reserva>
+<h3 class="d-flex justify-content-center">Reservas realizadas!</h3>
+
+
+<form asp-area="" asp-controller="Reserva" asp-action="ObterReservas">
+    <div class="border border-light rounded-left d-flex justify-content-center">
+        <input type="date" class="m-3"/>
+        <input type="submit" value="Consultar" class="btn btn-primary m-3" />
+    </div>
+</form>
+
+@{
+    var message = TempData["Message"] as string;
+    var messageType = TempData["MessageType"] as string;
+}
+
+@if (!string.IsNullOrEmpty(message))
+{
+    <div id="alertMessage" class="container alert @(messageType == "success" ? "alert-success" : "alert-danger") d-flex justify-content-center" role="alert">
+        @message
+    </div>
+}
+
+<div class="m-3">
+    <a asp-controller="Reserva" asp-action="Create" class="btn btn-success">Adicionar Nova Reserva</a>
+</div>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table table-striped m-2">
+        <thead>
+            <tr>
+                <th>Checkin</th>
+                <th>Checkout</th>
+                <th>Data Reserva</th>
+                <th>Data Checkin</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var reserva in Model)
+            {
+                <tr>
+                    <td>@reserva.Checkin</td>
+                    <td>@reserva.Checkout</td>
+                    <td>@reserva.DataReserva?.ToString("yyyy-MM-dd")</td>
+                    <td>@reserva.DataCheckin?.ToString("yyyy-MM-dd")</td>
+                    <td>
+                        <a asp-controller="Reserva" asp-action="Editar" asp-route-id="@reserva.IdReserva" class="btn btn-warning btn-sm mr-3">Editar</a>
+                        <a asp-controller="Reserva" asp-action="ExcluirReserva" asp-route-id="@reserva.IdReserva" class="btn btn-danger btn-sm">Remover</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p class="m-3">Nenhuma reserva encontrada.</p>
+}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        if ($('#alertMessage').length) {
+            setTimeout(function () {
+                $('#alertMessage').fadeOut('slow', function () {
+                    $(this).remove();
+                });
+            }, 14000);
+        }
+    });
+</script>
+

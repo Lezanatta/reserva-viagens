@@ -1,0 +1,61 @@
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\appsettings.Development.json
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\appsettings.json
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.staticwebassets.runtime.json
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.exe
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.deps.json
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.runtimeconfig.json
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.dll
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.pdb
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.GeneratedMSBuildEditorConfig.editorconfig
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.AssemblyInfoInputs.cache
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.AssemblyInfo.cs
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.csproj.CoreCompileInputs.cache
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.MvcApplicationPartsAssemblyInfo.cache
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.RazorAssemblyInfo.cache
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.RazorAssemblyInfo.cs
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets.build.json
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets.development.json
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets\msbuild.Viagens.WEB.Microsoft.AspNetCore.StaticWebAssets.props
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets\msbuild.build.Viagens.WEB.props
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Viagens.WEB.props
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Viagens.WEB.props
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets.pack.json
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\scopedcss\bundle\Viagens.WEB.styles.css
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\scopedcss\projectbundle\Viagens.WEB.bundle.scp.css
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.dll
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\refint\Viagens.WEB.dll
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.pdb
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.genruntimeconfig.cache
+C:\projeto container aws\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\ref\Viagens.WEB.dll
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.AssemblyInfoInputs.cache
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.AssemblyInfo.cs
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.csproj.CoreCompileInputs.cache
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.MvcApplicationPartsAssemblyInfo.cache
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.RazorAssemblyInfo.cache
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.RazorAssemblyInfo.cs
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.sourcelink.json
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\appsettings.Development.json
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\appsettings.json
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.staticwebassets.runtime.json
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.exe
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.deps.json
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.runtimeconfig.json
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.dll
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\bin\Debug\net8.0\Viagens.WEB.pdb
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets.build.json
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets.development.json
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets\msbuild.Viagens.WEB.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets\msbuild.build.Viagens.WEB.props
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Viagens.WEB.props
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Viagens.WEB.props
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\scopedcss\bundle\Viagens.WEB.styles.css
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\scopedcss\projectbundle\Viagens.WEB.bundle.scp.css
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.dll
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\refint\Viagens.WEB.dll
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.pdb
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\Viagens.WEB.genruntimeconfig.cache
+C:\Projeto reserva de viagens\Viagens.WEB\Viagens.WEB\obj\Debug\net8.0\ref\Viagens.WEB.dll

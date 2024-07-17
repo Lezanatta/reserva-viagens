@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=data-viagens.ctqka4u2cxog.sa-east-1.rds.amazonaws.com;Database=viagensDB;User Id=admin;Password=Le788293;"
+  }
+}

@@ -1,0 +1,37 @@
+﻿@model Viagens.WEB.Models.Reserva
+
+
+<div class="container">
+    <h3 class="mb-5">Editar Reserva</h3>
+    <form asp-action="AtualizarReserva" asp-controller="Reserva" method="post">
+        <input type="hidden" asp-for="IdReserva" />
+
+        <div class="form-group mb-4">
+            <label class="me-3">Checkin</label>
+            <input class="form-check-input" type="radio" asp-for="Checkin" value="1" id="CheckinSim" />
+            <label class="form-check-label me-3" for="CheckinSim">Sim</label>
+            <input class="form-check-input" type="radio" asp-for="Checkin" value="0" id="CheckinNao" />
+            <label class="form-check-label" for="CheckinNao">Não</label>
+        </div>
+
+        <div class="form-group mb-4">
+            <label class="me-3">Checkout</label>
+            <input class="form-check-input" type="radio" asp-for="Checkout" value="1" id="CheckoutSim" />
+            <label class="form-check-label me-3" for="CheckoutSim">Sim</label>
+            <input class="form-check-input" type="radio" asp-for="Checkout" value="0" id="CheckoutNao" />
+            <label class="form-check-label" for="CheckoutNao">Não</label>
+        </div>
+
+        <div class="form-group mb-4">
+            <label asp-for="DataReserva"></label>
+            <input asp-for="DataReserva" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label asp-for="DataCheckin"></label>
+            <input asp-for="DataCheckin" class="form-control" />
+        </div>
+
+        <button type="submit" class="btn btn-success mt-5">Salvar</button>
+    </form>
+</div>
